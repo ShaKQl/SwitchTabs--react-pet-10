@@ -1,0 +1,40 @@
+.wrapper{
+    padding: 8px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+
+}
+
+.label{
+
+}
+
+.tab-item{
+    font-size: 30px;
+    display: inline-flex;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: #666;
+    transition: 0.5s;
+}
+
+.tab-item-active{
+    transition: 0.5s;
+    font-size: 30px;
+    display: inline-flex;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    /* border: 1px solid cadetblue; */
+    color: blueviolet;
+
+}
